@@ -1,0 +1,53 @@
+.body{
+  margin: 50px 70px 60px 125px ;
+  background-color:aliceblue;
+}
+
+.active-link {
+  border: 1px solid rgb(21, 10, 42);
+}
+
+
+.card{
+  border: 1px solid grey;
+  width: 200px;
+  height: auto;
+  text-align: center;
+  margin: 5px 15px 30px 5px;
+  
+  float: left;
+}
+
+.card:hover{
+  border: 1px solid rgb(166, 237, 13);
+  background-color:rgb(164, 42, 191);
+  color: aquamarine;
+}
+
+img{
+  width: 100%;
+  height: 220px;
+
+}
+
+.text{
+  margin: 5px;
+  padding: 5px;
+  font-size: 15px;
+
+}
+
+button{
+  padding: 9px;
+  margin: 5px;
+  width: 100%;
+  border: none;
+  font-weight:bold;
+  background-color:rgb(122, 202, 205);
+}
+
+button:hover{
+  background-color: rgba(7, 47, 88, 0.901);
+  color: white;
+  cursor:pointer;
+}

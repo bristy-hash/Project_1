@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button-Button-Play</title>
+
+  <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/3077/3077000.png" >
+  <link rel="stylesheet" href="styleLink.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+  integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  
+  <script src="./code.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand " href="index.html" style="font-family: 'Times New Roman', Times, serif;">Glider</a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="home.html">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+          Visit
+        </a>
+        <div class="dropdown-menu active-link">
+          <a class="dropdown-item" href="Gallery.html">Photo Gallery</a>
+          <a class="dropdown-item active-link" href="demo.html">Demo Work</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+          Contact us
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="form.html">Registration</a>
+          <a class="dropdown-item" href="home.html">Contact details</a>
+        </div>
+    </ul>
+    
+  </div>
+</nav>
+
+<h1 class="head">Let's play with these buttons.</h1><br>
+      <div class="container"> 
+        <div class="row">
+          <div class="col-sm-6" style="border: 1px solid rgb(147, 89, 89)">
+        
+            <h2>Hi! I am Baymax.</h2>
+            <div class="text">Your personal Health-care Companion</div>
+            <hr>
+            <p id="p1">Baymax is a fictional superhero character appearing in American comic books published by Marvel Comics. Created by Steven T. Seagle and Duncan Rouleau, Baymax first appeared in Sunfire & Big Hero 6 #1 (September 1998). Baymax begins his existence as Hiro Takachiho's science project. Originally designed to be a hydro-powered robotic synthformer programmed to serve as Hiro's personal bodyguard, butler and chauffeur, Baymax becomes Hiro's best friend and father figure when the young inventor programs his recently deceased father's brain engrams into Baymax's artificial intelligence. When the Giri recruits Hiro into the fledgling super-team Big Hero 6, Baymax also joins the team, where his phenomenal strength, amazing surveillance and data analysis capabilities have proven useful.</p><br>
+            <input type="button" class="btn btn-primary alert alert-info" onclick="changeColor()" value="Read with color"><br><br>
+          </div>
+          <br><br>
+         <div class="col-sm-6">
+           <img id="img1" src="https://tse1.mm.bing.net/th?id=OIP.C8w86XVIN4OTAWK1-DVr6QHaKr&pid=Api&P=0"    alt="Image not found" class="img-thumbnail rot">
+           <input type="button" class="btn btn-primary alert-primary" onclick="changeImage()" value="Click Me!" >
+         </div>
+       </div>
+     </div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header mod">
+          <h5 class="modal-title" id="exampleModalLabel">Thank You for the visit.</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          
+        </div>
+        <div class="modal-body mod"><h4 style="text-align: center;">Have a Good Day!!!</h4></div>
+      </div>
+    </div>
+  </div>
+  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal">Final Click!
+
+  
+
+
+
+</body>
+</html>

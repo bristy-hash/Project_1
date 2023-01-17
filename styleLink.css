@@ -1,0 +1,28 @@
+body{
+  background-image: linear-gradient(to right, rgb(208, 81, 100), rgb(77, 28, 123)); background-repeat: no-repeat; background-position: center top;
+}
+.content{
+  background:#0b121b; color:white; padding:10px; height: 60px; font-size: x-large;
+}
+.head{
+  text-align:center;
+  color: aliceblue;
+}
+.text:hover{
+  color: rgb(72, 1, 1);
+  cursor: hand;
+}
+.rot{
+  position: absolute;
+  left: 145px;
+  top: 25px;
+  height:350px; 
+  width:300px;
+}
+button{
+  float: right;
+}
+.mod{
+  background-color: cornsilk;
+}
+
